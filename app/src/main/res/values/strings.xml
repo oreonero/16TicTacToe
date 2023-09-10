@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">16TicTacToe</string>
+    <string name="game_title">CLASSIC Tic-Tac-Toe</string>
+    <string name="start_new_game">Start New Game</string>
+    <string name="p1_points">Player one points: </string>
+    <string name="p2_points">Player two points: </string>
+    <string name="enterNamePrompt">Please enter player names!</string>
+</resources>
