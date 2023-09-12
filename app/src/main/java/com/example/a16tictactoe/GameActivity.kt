@@ -33,8 +33,8 @@ class GameActivity : AppCompatActivity() {
 
         val playerOneNameDisp = findViewById<TextView>(R.id.pOneNameDisp)
         val playerTwoNameDisp = findViewById<TextView>(R.id.pTwoNameDisp)
-        playerOneNameDisp.text = "$playerOneName :"
-        playerTwoNameDisp.text = "$playerTwoName :"
+        playerOneNameDisp.text = "$playerOneName (X):"
+        playerTwoNameDisp.text = "$playerTwoName (O):"
         gameManager = GameLogic()
         val ExitButton = findViewById<Button>(R.id.ExitButton)
         ExitButton.setOnClickListener {
